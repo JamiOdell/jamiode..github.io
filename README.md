@@ -1,2 +1,1 @@
-# jamiode..github.io
-Jami Odell 598E repository
+HCDE 598 Special Topics Digital Fabrication
