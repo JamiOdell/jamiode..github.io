@@ -29,7 +29,7 @@
                     <a href="index.html">Home</a>
                     <a href="assignment1.html">A.1</a>
                     <a href="assignment2.html">A.2</a>
-                    <a href="assignment3.html">A.3</a>
+                  <a href="assignment3.html">A.3</a>
                     <a href="futureassignment.html">A.4</a>
                     <a href="futureassignment.html">A.5</a>
                     <a href="futureassignment.html">A.6</a>
@@ -63,7 +63,7 @@
     <main>
 
         <br><br>
-        <h1>A2: CAD model + fabricated output!</h1>
+        <h1>A3: 3D printing + lasercutting lamp!</h1>
         <br><br>
 
         <img src="asgn-2-title-image.jpg" width=400 style="width: 100%" alt="construction">
@@ -72,32 +72,49 @@
         <br><br>
 
 
-        <h2>Write up of process</h2>
+        <h2>Write up of process: 3D print connector piece</h2>
 
         <ul>
-            <li>Created a new file in Rhino</li>
-            <li>Followed the in class tutorial for Grasshopper parametric control</li>
-            <li>Used region difference to create the "slot pieces" I needed</li>
-            <li>Using calipers, measured width of two different sheets of cardboard = 3mm, 7mm respectively</li>
+            <li>Brainstormed design ideas with pencil and paper</li>
+            <li>Did extensive hand made protoypes to validate structural integrity</li>
+            <li>With protoype validated, created a new file in Rhino</li>
+                 <li>Using calipers, measured width of cardboard = 3mm</li>
             <li>Using Grasshopper, set the width of the parametric "slot connector" rectangles 3mm, subtracted rectangles from desired shape </li>
-            <li>Using Grasshopper, set the width of the parametric "slot connector" rectangles 7mm, subtracted rectangles from desired shape </li>
-            <li>Exported a file with 3mm "slot connector" widths to Illustrator</li>
+            <li>Used region difference to create the "slot pieces" I needed</li>
+                  
+            <li>Exported .stl file from Rhino </li>
             <li>Exported a file with 7mm "slot connector" widths to Illustrator</li>
             <li>Set the line widths to both files to .001-in. in Illustrator </li>
 
+        </ul>
+          <img src="asgn-2-title-image.jpg" width=400 style="width: 100%" alt="construction">
+        
+        
+         <h2>Write up of process: 2D cardboard "fin" pieces</h2>
+
+        <ul>
+            <li>Brainstormed design ideas with pencil and paper</li>
+            <li>Did extensive hand made protoypes to validate structural integrity</li>
+            <li>With protoype validated, created matching file in Adobe Illustrator</li>
+                       <li>Use Laser Cutter at The Mill to create Cardboard "fin" pieces </li>
+            <li>Test fit into 3D connector = success!</li>
+                  
+            <li>Completed press fit custruction </li>
+            <li>For aesthetic purposes, spray painted the pieces flat black</li>
+     
         </ul>
 
         <h2>Problems in file creation and how I resolved them</h2>
 
         <ul>
-            <li>I had difficulty in getting Grasshopper to parametrically align the rectangles to the shapes I wanted and remain entirely in Grasshopper</li>
+            <li>Opted to help a friend set up a brand new 3D printer and to "test" it with my school project</li>
             <li>I drew a triangle, elipse, octagon, and a square/circle combo in Grasshopper and baked them, then aligned it to the Grasshopper parametric circle/rectangle feature</li>
             <li>Next step was to Bake the Grasshopper parametric design with Region Difference</li>
             <li>Finally I subtracted the adjusted baked polar array from the shapes I drew</li>
 
         </ul>
         <img src="asgn-2-grasshopper.jpg" width=400 style="width: 100%" alt="construction">
-                <img src="asgn-2-rhino.jpg" width=400 style="width: 100%" alt="construction">
+             
         <h2>Source files</h2>
         <ul>
             <li>A2 Rhino file
@@ -116,8 +133,8 @@
         <h2>Machine settings</h2>
         <ul>
 
-            <li>Ensured the laser cutter was turned on</li>
-            <li>Ensured the exhaust was turned on</li>
+            <li>1st time set up of DaVinci Mini W+</li>
+         
             <li>Ensured air the compressor was enabled</li>
             <li>Loaded the scrap cardboard I brought to class</li>
             <li>Installed the focus key</li>
@@ -133,7 +150,24 @@
             <li>Success! The patterns cut as I hoped for</li>
 
         </ul>
+        
+        
+<h2>Drama</h2>
+        <ul>
 
+            <li>Logistical challenges: I don't live at the UW. 45 minute drive. Leaving and returning continuously to check on a 3D print not feasable. Staying 12+ hours on campusnot feasable.</li>
+            <li>Solution. Find home 3D printer. Ping social network. Success!</li>
+              <li>Thought: Considering the time savings, at $239, might be worth buying and having your very own cool 3D printer for future projects (and passing this class)</li>
+            <li>1st time set up of Da Vinchi Printer = easy</li>
+            <li>Download of print drivers and help documentatin from company website = nightmare</li>
+            <li>Followed measure twice, cut (print) once scenario using many hand made prototypes = success!</li>
+             <li>Fit challenges: Granular level of tolerances. Ring must be big enough for plug and switch to pass through, yet small enought to rest on housing</li>
+            <img src="asgn-2-laser-starting-out.jpg" width=400 style="width: 100%" alt="construction">
+            
+          
+           
+        </ul>
+        
 
         <img src="asgn-2-laser-starting-out.jpg" width=400 style="width: 100%" alt="construction">
         <img src="asgn-2-laser-settings.jpg" width=400 style="width: 100%" alt="building file">
